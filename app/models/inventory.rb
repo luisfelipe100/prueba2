@@ -1,6 +1,6 @@
 class Inventory < ApplicationRecord
   belongs_to :category
-  belongs_to :work
+  belongs_to :work, dependent: :destroy
   validates :wheel_size, numericality: {
     greater_than: 0
   }
