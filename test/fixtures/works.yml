@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+work1:
+  description: MyText1
+  user: user1
+
+work2:
+  description: MyText2
+  user: user1
+
+work3:
+  description: MyText3
+  user: user2
